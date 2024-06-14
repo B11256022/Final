@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>League of Legends</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+#gamemodes {
+  background-color: rgb(1, 1, 66);
+}
+#gamemodes h2 {
+  color: rgb(242, 205, 19);
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#champions" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CHAMPIONS</a>
+    <a href="#gamemodes" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GAME MODES</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
+  <a href="#champions" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CHAMPIONS</a>
+  <a href="#gamemodes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GAME MODES</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<!-- Automatic Slideshow Images -->
+<div class="mySlides w3-display-container w3-center">
+  <img src="image1.jpg" style="width:80%">
+  <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+    <h3>這是台灣第一支英雄聯盟世界冠軍隊伍</h3> 
+    <p><b>TPA.</b></p>    
+  </div>
+</div>
+<div class="mySlides w3-display-container w3-center">
+  <img src="image2.jpg" style="width:100%">
+  <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+    <h3>這是韓國連續獲得四次總冠軍英雄聯盟隊伍</h3>
+    <p><b>T1.</b></p>    
+  </div>
+</div>
+<div class="mySlides w3-display-container w3-center">
+  <img src="image3.jpg" style="width:50%">
+  <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>這是獲得四次世界冠軍的人</h3>
+    <p><b>FAKER.</b></p>    
+  </div>
+</div>
+
+
+  <!-- Champions Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="champions">
+    <h2 class="w3-wide w3-center">建議你玩與不玩的腳色</h2>
+    <p class="w3-opacity w3-center"><i>聽聽看我的建議吧~</i></p>
+    <div class="w3-row-padding w3-padding-32">
+      <div class="w3-col s4 w3-margin-bottom">
+        <div class="w3-card w3-round w3-margin-bottom">
+          <img src="champion1.jpg" class="w3-round" alt="Champion 1" style="width:100%">
+          <div class="w3-container">
+            <h3>提摩</h3>
+            <p>這隻是最討人厭的腳色，除非你想要噁心別人，不然我不建議玩隻腳色。</p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col s4 w3-margin-bottom">
+        <div class="w3-card w3-round w3-margin-bottom">
+          <img src="champion2.jpg" class="w3-round" alt="Champion 2" style="width:100%">
+          <div class="w3-container">
+            <h3>賈克斯</h3>
+            <p>這隻是我最愛也最擅長的腳色，如果你把握好E的掌控時間，他在上路基本上全部腳色部都難打，但是他算是中後期腳色，前期需要先忍住發育等到中期再發力。</p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col s4 w3-margin-bottom">
+        <div class="w3-card w3-round w3-margin-bottom">
+          <img src="champion3.jpg" class="w3-round" alt="Champion 3" style="width:100%">
+          <div class="w3-container">
+            <h3>犽宿</h3>
+            <p>非常好玩，非常帥，推薦給你，但是要經得起每一場都被針對跟被隊友罵的壓力喔；&gt;。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Modes Section -->
+  <div  id="gamemodes">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">遊戲模式</h2>
+      <p class="w3-opacity w3-center" style="color: rgb(242, 205, 19)"><i>選擇想要遊玩的模式吧</i></p>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="gamemode1.jpg" alt="Game Mode 1" style="width:100%" class="w3-round">
+          <div class="w3-container w3-white">
+            <h3>一般模式</h3>
+            <p>這是最常見的模式，有分一般跟積分，想要獲得更高的技巧跟成就感就打積分，想開心玩就打一般。</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="gamemode2.png" alt="Game Mode 2" style="width:100%" class="w3-round">
+          <div class="w3-container w3-white">
+            <h3>隨機單中</h3>
+            <p>放鬆專用模式。</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="gamemode3.png" alt="Game Mode 3" style="width:100%" class="w3-round">
+          <div class="w3-container w3-white">
+            <h3>活動模式</h3>
+            <p>這邊通常會一直換模式，這邊推薦阿福快打，娛樂模式非常好玩</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+</body>
+</html>
