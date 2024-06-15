@@ -16,6 +16,15 @@ body {font-family: "Lato", sans-serif}
 #gamemodes h2 {
   color: rgb(242, 205, 19);
 }
+.w3-display-container .w3-container {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
 @media screen and (max-width: 768px) {
   .w3-bar-item {padding: 8px 16px;}
   .w3-content {padding: 16px;}
@@ -25,6 +34,10 @@ body {font-family: "Lato", sans-serif}
 @media screen and (max-width: 600px) {
   .w3-third {width: 100%; margin-bottom: 16px;}
   .w3-row-padding {padding: 0;}
+  .w3-display-container .w3-container {
+    padding: 10px;
+    font-size: 0.9em;
+  }
 }
 </style>
 </head>
@@ -52,21 +65,21 @@ body {font-family: "Lato", sans-serif}
 <!-- Automatic Slideshow Images -->
 <div class="mySlides w3-display-container w3-center">
   <img src="image1.jpg" style="width:80%">
-  <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+  <div class="w3-display-bottomleft w3-container">
     <h3>這是台灣第一支英雄聯盟世界冠軍隊伍</h3> 
     <p><b>TPA.</b></p>    
   </div>
 </div>
 <div class="mySlides w3-display-container w3-center">
   <img src="image2.jpg" style="width:100%">
-  <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+  <div class="w3-display-bottomleft w3-container">
     <h3>這是韓國連續獲得四次總冠軍英雄聯盟隊伍</h3>
     <p><b>T1.</b></p>    
   </div>
 </div>
 <div class="mySlides w3-display-container w3-center">
   <img src="image3.jpg" style="width:50%">
-  <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+  <div class="w3-display-bottomleft w3-container">
     <h3>這是獲得四次世界冠軍的人</h3>
     <p><b>FAKER.</b></p>    
   </div>
